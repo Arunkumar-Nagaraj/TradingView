@@ -1,7 +1,7 @@
-# Selenium-Java (for UI) - GitHub Action for CI overview
-This is an project to demonstrate QA Test how to work with Selenium cucumber and REST API for Java
+# Selenium-Java (for UI)
+This is an project to demonstrate QA Test how to work with Selenium cucumber for Java
 
-[![Selenium & REST-API with Maven](https://github.com/actions/toolkit/workflows/Main%20workflow/badge.svg)](https://github.com/psubrambe/e2e-framwork/actions/workflows/maven.yml?query=Java+CI+with+Maven)
+
 #### Installation (pre-requisites)
 * JDK 1.8+ (make sure Java class path is set) 
 * Maven (make sure .m2 class path is set)
@@ -26,8 +26,7 @@ This is an project to demonstrate QA Test how to work with Selenium cucumber and
 
 #### Execution of Test in Local Machine: IntelliJ IDEA
 
-* Navigate to runner folder and execute any test runner file [Runner](https://prnt.sc/1hkovoo)
-* We can execute test cases from testng.xml as well [testng.xml](https://prnt.sc/1hkovoo)
+* Navigate to UserLogin.feature file and execute it by clicking the run command right clicking on the Scenario.
 
 #### Execution of Test in Local Machine Using Command prompt:
 * Navigate to Project folder 
@@ -35,16 +34,8 @@ This is an project to demonstrate QA Test how to work with Selenium cucumber and
             `mvn clean install` or `mvn test` or `mvn verify`
 
 #### Execution of Test in GitHub Actions
-* Navigate to [GITHUB ACTIONS](https://github.com/psubrambe/e2e-framwork/actions)
-* To View the latest Test Cases executed in [pipeline](https://github.com/psubrambe/e2e-framwork/actions/runs/1079241205)
+* Navigate to [GITHUB ACTIONS](https://github.com/Arunkumar-Nagaraj/TradingView)
 
-#### Execution of Test Jenkins
-* Project has been configured with the Jenkins file were all respective stage has been cleared coded.
-* Need to establish a connection between github or any repository and Jenkins 
-* Clone the Repo from Jenkins
-* Configure build stages to execute the test cases
 
-#### Task Analysis and Execution
 
-* I have recorded the Analysis of task and how i have approaced to complete the task [Analysis and Execution](./CaseStudy.txt) 
 
