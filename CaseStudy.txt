@@ -1,0 +1,44 @@
+==========================================   Analysis and Execution     ==========================================
+
+GUI Scenarios :-
+    As per task provided user must be logged in to the provided application.
+
+    Based on Analysis of the Task
+    * Reviewed the flows in  - login.dev.qa-experience.com
+    * The possible flows to automate login and invalid login validations
+    * Once the flow and process of automation is identified next step is identify tools and tech stack's needs to be used
+    * Then as per the task I perfered to go with Selenium - Java Framework for GUI Automation
+    * Now, Tool and Tech Stack is confirmed now folder structure and control flows needs to analysed and implemented
+            [ like Where to pick urls,locators,testData, features files and POM pattern ]
+    * Once above is point is completed now boilerplate is ready
+    * Now, based on 2nd Point we can write our Test Suite
+
+Frameworks Features :
+* GUI Automation based on Selenium-Java
+* Basic and Advanced Cucumber Reporting
+* Boilerplate of jenkins integration is incorporated
+* Integrated with GitHub Actions for general testing
+            * When there is push operation there needs a basic checkpoint nothing is breaking framework
+            * For above point integrated with Selenium with Maven Workflow
+            * Everytime when push operation is performed automated build check triggered.
+            * Able to View the Test Results in same action.
+
+Area of Improvements :
+
+ Test Suite  :-
+   * Test Suite is not constant unit it timely evolve parameter based on our products features
+   * We need to have regular catchup Dev and BA to cover the most of workflows
+   * To Complete the task i have created few workflows in GUI and API
+
+ Framework :-
+  * Current framework it has only whatever required for Task
+  * Many more basic methods ,Reporting and Analysis functionality need to be incorporated
+
+  Improvements for Framework :-
+
+  * Centralized Jenkins integration
+  * Centralized Reporting Functionality
+  * Automated Test Report Analyser
+  * Integration with API/MOBILE and DESKTOP automation tools is possible
+
+  Note : Above are few items and many more features can be integrated
