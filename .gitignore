@@ -1,0 +1,6 @@
+/.idea/
+.idea/
+e2e-framework.iml
+target/
+# Mac
+.DS_Store
